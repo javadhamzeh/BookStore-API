@@ -17,8 +17,6 @@ namespace BookStore_API.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public class AuthorsController : ControllerBase
     {
         private readonly IAuthorRepository _authorRepository;
