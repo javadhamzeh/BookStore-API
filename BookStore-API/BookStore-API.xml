@@ -4,6 +4,13 @@
         <name>BookStore-API</name>
     </assembly>
     <members>
+        <member name="M:BookStore_API.Contracts.UsersController.Login(BookStore_API.DTOs.UserDTO)">
+            <summary>
+            User Login Endpoint
+            </summary>
+            <param name="userDTO"></param>
+            <returns></returns>
+        </member>
         <member name="T:BookStore_API.Controllers.AuthorsController">
             <summary>
             Endpoint used to interact with the Authors in the book stores's database
